@@ -5,7 +5,7 @@ import org.springframework.context.annotation.*;
 @Configuration
 @PropertySource("classpath:myApp.properties")
 //@ComponentScan("spring_introduction")
-public class MyCofig {
+public class MyConfig {
 
     @Bean
     @Scope("singleton")
